@@ -1,0 +1,39 @@
+/****General Styles ****/
+
+body { 
+	padding-top: 90px; 
+}
+
+.navbar-header{
+	padding-top:5px;
+	font-size:2em;
+}
+
+.chicken{
+	background-color:#FDDD73;
+	font-family:Verdana, Geneva, sans-serif;
+	padding:10px 15px 0 15px;
+	color:#333;
+}
+
+
+.beef{
+	background-color:#9BB0B9;
+	font-family:Verdana, Geneva, sans-serif;
+	padding:10px 15px 0 15px;
+	color:#333;
+}
+
+.sushi{
+	background-color:#BFD497;
+	font-family:Verdana, Geneva, sans-serif;
+	padding:10px 15px 0 15px;
+	color:#666;
+}
+
+/****Mobile Styles ****/
+@media (max-width: 768px) {
+	.container .navbar-header{
+	margin-left:10px;
+	}
+}
